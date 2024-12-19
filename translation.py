@@ -74,7 +74,7 @@ def update_word_list():
     for word in sorted(words):
         word_listbox.insert(tk.END, word)
 
-image_path = r"C:\Users\aaron\Downloads\Leonardo_Phoenix_09_A_mesmerizing_keyframe_capturing_the_essen_0.jpg"  # Replace with your image path
+image_path = r"C:\Users\aaron\Downloads\Leonardo_Phoenix_09_A_mesmerizing_keyframe_capturing_the_essen_0.jpg"  
 cv_image = cv2.imread(image_path)
 cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
 
